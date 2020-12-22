@@ -291,6 +291,10 @@ section .test1 {
   height: 50px;
 }
 
+.space2 {
+  height: 15px;
+}
+
 @media (min-width: 768px) {
   .cardd-text2 {
     position: absolute;
@@ -299,6 +303,21 @@ section .test1 {
     color: black;
     font-size: 12px;
   }
+}
+@media (max-width: 768px) {
+  .foot-img {
+    width: 40px;
+    height: 20px;
+  }
+}
+.f-speak2 {
+  font-family: lato1;
+  color: #d3d3d3;
+  font-size: 14px;
+}
+
+.foot1 {
+  background-color: #272a31;
 }
 
 /*# sourceMappingURL=styles.css.map */
