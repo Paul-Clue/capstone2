@@ -1,0 +1,235 @@
+@font-face {
+    font-family: cocogoose1;
+    src: url('fonts/cocogoose/Cocogoose_trial.otf');
+}
+
+@font-face {
+    font-family: lato1;
+    src: url('fonts/lato/Lato-Regular.ttf');
+}
+
+.container {
+  overflow: hidden;
+}
+
+$bg-icon-position: relative;
+
+$g-color: #d3d3d3;
+$b-color: #272a31;
+$o-color: #ec5242;
+$body-color: #f9f9f9;
+
+.nav-item a {
+  color: white;
+  z-index: 2;
+}
+
+%text-font{
+    font-family: lato1;
+    color: $g-color;
+  }
+
+  body {
+    background-color: $body-color;
+  }
+
+  .bg-image {
+    width: 100%;
+    height: 120px;
+    opacity: 0.10;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+  }
+
+nav {
+    background-color: black;
+    z-index: 3;
+}
+
+.nav2 {
+    background-color: white;
+    height: 60px;
+    z-index: 3;
+}
+
+.navbar-brand {
+    color: $b-color;
+    z-index: 3;
+}
+
+.nav3{
+  margin-top: 10px;
+  z-index: 3;
+}
+
+.nav3 a {
+  @extend %text-font;
+  padding-right: 40px;
+  z-index: 2;
+}
+
+.pr-6 .a-btn {
+  border: 4px solid $o-color;
+  color: $o-color;
+  z-index: 3;
+}
+
+.sec1 {
+ float: left;
+}
+
+.fa-bars {
+  color: $b-color;
+  z-index: 3;
+}
+
+.bg1 {
+  position: $bg-icon-position;
+  top: 550px;
+  left: 200px;
+  z-index: 1;
+}
+
+.bg2 {
+  position: $bg-icon-position;
+  top: 390px;
+  left: 770px;
+  z-index: 1;
+}
+
+.bg3 {
+  position: $bg-icon-position;
+  top: 190px;
+  left: 30;
+  z-index: 1;
+}
+
+.bg4 {
+    position: $bg-icon-position;
+    top: 400px;
+    left: 10px;
+    z-index: 1;
+}
+
+.bg5 {
+    position: $bg-icon-position;
+    top: 70px;
+    left: 5px;
+    z-index: 1;
+}
+
+.bg6 {
+    position: $bg-icon-position;
+    top: 80px;
+    left: 90px;
+    z-index: 1;
+}
+
+.bg7 {
+    position: $bg-icon-position;
+    top: 600px;
+    left: 50px;
+    z-index: 1;
+}
+
+.bg8 {
+    position: $bg-icon-position;
+    top: 300px;
+    left: 0;
+    z-index: 1;
+}
+
+.bg9 {
+    position: $bg-icon-position;
+    top: 50px;
+    left: 300px;
+    z-index: 1;
+}
+
+.bg10 {
+    position: $bg-icon-position;
+    top: 250px;
+    left: 8px;
+    z-index: 1;
+}
+
+.sec2 {
+  position: relative;
+  top: -100px;
+  
+  
+}
+
+.main-w {
+  position: relative;
+  z-index: 3;
+}
+
+section h1 {
+  font-family: lato1;
+  font-size: 12px;
+  color: $o-color;
+}
+
+.small-div {
+  background-color: $body-color;
+  font-family: lato1;
+  font-size: 12px;
+  font-weight: bold;
+  color: $b-color;
+}
+
+.small-div2 {
+  color: $b-color;
+  font-family: cocogoose1;
+  font-size: 12px;
+}
+
+.small-div3 {
+  color: $b-color;
+  font-style: lato1;
+  font-size: 12px;
+}
+
+.row-s {
+  background-color: $body-color;
+}
+
+section .test1{
+  font-family: cocogoose1;
+  background-image: url(./img/orange2.jpg); 
+  background-repeat: no-repeat; 
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; 
+  font-size: 40px; 
+  font-weight: bold; 
+  text-transform: uppercase; 
+  font-weight: 800; 
+  -webkit-font-smoothing: antialiased; 
+}
+
+.main {
+  background-color: $b-color;
+}
+
+.line {
+  width: 30px;
+  height: 4px;
+  border: 3px solid $o-color;
+}
+
+.card {
+  height: 150px;  
+}
+
+.card-text {
+  position: relative;
+  left:145px;
+  top: -40px;
+}
+
+
+
+
+
