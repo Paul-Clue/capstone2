@@ -8,6 +8,11 @@
     src: url('fonts/lato/Lato-Regular.ttf');
 }
 
+@font-face {
+  font-family: lato2;
+  src: url('fonts/lato/Lato-BlackItalic.ttf');
+}
+
 .container {
   overflow: hidden;
 }
@@ -216,7 +221,7 @@ section .test1{
 .line {
   width: 30px;
   height: 4px;
-  border: 3px solid $o-color;
+  border: 2px solid $o-color;
 }
 
 .cardd {
@@ -224,6 +229,8 @@ section .test1{
   background-color: rgba(350, 350, 350, .20);
   color: white;  
 }
+
+
 
 .card-img {
   
@@ -263,10 +270,51 @@ section .test1{
 .cardd2 {
   height: 110px;
   background-color: $body-color;
-  color: $b-color;  
+  color: $b-color;
+    
 }
 
+.cardd-text2 {
+  position: absolute;
+  left: 100px;
+  top: -100px;
+  color: black;
+  font-size: 12px;
+}
 
+.cardd-text4 {
+  padding-top: -300px;
+}
 
+.card-h2 {
+  color: $b-color;
+  font-size: 14px;
+}
+
+.line2 {
+  position: absolute;
+  margin: 0;
+  padding-right: 50px;
+  border-top: 3px solid $g-color;
+}
+
+.cardd-text3 {
+  font-family: lato2;
+  color: $o-color;
+  font-size:  10px;
+}
+.space {
+  height: 50px;
+}
+
+@media (min-width: 768px){
+  .cardd-text2 {
+    position: absolute;
+    left: 25px;
+    top: 0;
+    color: black;
+    font-size: 12px;
+  }
+}
 
 
