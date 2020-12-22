@@ -207,7 +207,7 @@ section .test1 {
   border: 3px solid #ec5242;
 }
 
-.card {
+.cardd {
   height: 110px;
   background-color: rgba(255, 255, 255, 0.2);
   color: white;
@@ -218,20 +218,39 @@ section .test1 {
   height: 100px;
 }
 
-.card-text {
-  position: relative;
-  left: 160px;
-  top: -40px;
+.cardd-text {
+  position: absolute;
+  left: 200px;
+  top: -80px;
   color: white;
 }
 
 .text-break {
   position: relative;
-  top: -25px;
+  top: 30px;
 }
 
 .card-h {
   color: #ec5242;
+}
+
+.see {
+  font-family: lato1;
+  font-weight: bold;
+  font-size: 13px;
+  color: white;
+}
+
+.f-speak {
+  font-family: lato1;
+  color: #272a31;
+  font-size: 14px;
+}
+
+.cardd2 {
+  height: 110px;
+  background-color: #f9f9f9;
+  color: #272a31;
 }
 
 /*# sourceMappingURL=styles.css.map */
