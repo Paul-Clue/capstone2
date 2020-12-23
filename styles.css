@@ -295,6 +295,10 @@ section .test1 {
   height: 15px;
 }
 
+.space3 {
+  height: 110px;
+}
+
 @media (min-width: 768px) {
   .cardd-text2 {
     position: absolute;
@@ -318,6 +322,29 @@ section .test1 {
 
 .foot1 {
   background-color: #272a31;
+}
+
+.about-nav2 {
+  box-shadow: 5px 10px 18px #888888;
+}
+
+.about-text p {
+  height: 150px;
+  background-color: white;
+  color: #d3d3d3;
+  font-family: lato1;
+  padding-top: 30px;
+}
+
+.text-center {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.about-text .coco {
+  font-family: cocogoose1;
+  font-weight: bold;
+  font-size: 10;
 }
 
 /*# sourceMappingURL=styles.css.map */
