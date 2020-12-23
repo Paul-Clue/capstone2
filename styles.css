@@ -347,4 +347,24 @@ section .test1 {
   font-size: 10;
 }
 
+.about-log1 {
+  font-family: lato1;
+  font-weight: bold;
+  color: #272a31;
+  font-size: 20px;
+}
+
+.about-log2 {
+  font-family: lato1;
+  color: #272a31;
+  font-size: 12px;
+}
+
+.logo {
+  font-family: cocogoose1;
+  font-size: 50px;
+  font-weight: bold;
+  margin: auto;
+}
+
 /*# sourceMappingURL=styles.css.map */
