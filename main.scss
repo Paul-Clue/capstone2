@@ -351,7 +351,7 @@ section .test1{
 
 .f-speak2 {
   font-family: lato1;
-  color: $g-color;
+  color: $b-color;
   font-size: 14px;
 }
 
@@ -373,7 +373,7 @@ section .test1{
 .about-text p {
   height: 150px;
   background-color: white;
-  color: $g-color;
+  color: $b-color;
   font-family: lato1;
   padding-top: 30px;
 }
@@ -460,7 +460,7 @@ section .test1{
 
 .about-ft-text {
   font-family: lato1;
-  color: white;
+  color: $g-color;
 }
 
 .about-ft-logo {
@@ -549,4 +549,12 @@ section .test1{
   left: 29%;
   color: white;
 }
+
+@media (min-width: 900px) {
+  .btn-food {
+    left: 47%
+  }
+}
+
+
 

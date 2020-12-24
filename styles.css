@@ -332,7 +332,7 @@ section .test1 {
 }
 .f-speak2 {
   font-family: lato1;
-  color: #d3d3d3;
+  color: #272a31;
   font-size: 14px;
 }
 
@@ -352,7 +352,7 @@ section .test1 {
 .about-text p {
   height: 150px;
   background-color: white;
-  color: #d3d3d3;
+  color: #272a31;
   font-family: lato1;
   padding-top: 30px;
 }
@@ -435,7 +435,7 @@ section .test1 {
 
 .about-ft-text {
   font-family: lato1;
-  color: white;
+  color: #d3d3d3;
 }
 
 .about-ft-logo {
@@ -518,6 +518,12 @@ section .test1 {
   position: relative;
   left: 29%;
   color: white;
+}
+
+@media (min-width: 900px) {
+  .btn-food {
+    left: 47%;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
