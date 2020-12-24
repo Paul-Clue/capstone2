@@ -443,7 +443,7 @@ section .test1{
 .ticket-ins {
   border-radius: 24px;
   height: 40px;
-  width: 40%;
+  width: 47%;
   padding-top: 6px;
   margin: auto;
 }
@@ -453,4 +453,14 @@ section .test1{
   border-color: $o-color;
 }
 
+.ticket2 {
+  background-color: white;
+}
 
+.lunch {
+  margin: auto;
+}
+
+.lunch li {
+  display: inline;
+}
