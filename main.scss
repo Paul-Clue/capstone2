@@ -387,3 +387,39 @@ section .test1{
   font-weight: bold;
   margin: auto;
 }
+
+.about-img1 {
+  width: 50%;
+  margin: auto;
+}
+
+.about-img1 img {
+  width: 250px;
+  height: 200px;
+  margin-right: 20px;
+}
+
+.about-btm {
+  font-family: lato1;
+  color: $b-color;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.about-ft {
+  background-color: $b-color;
+}
+
+.about-ft-text {
+  font-family: lato1;
+  color: white;
+}
+
+.about-ft-logo {
+  font-family: cocogoose1;
+  font-size: 50px;
+  font-weight: bold;
+  margin: auto;
+  color: white;
+}

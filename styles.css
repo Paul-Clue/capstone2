@@ -367,4 +367,40 @@ section .test1 {
   margin: auto;
 }
 
+.about-img1 {
+  width: 50%;
+  margin: auto;
+}
+
+.about-img1 img {
+  width: 250px;
+  height: 200px;
+  margin-right: 20px;
+}
+
+.about-btm {
+  font-family: lato1;
+  color: #272a31;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.about-ft {
+  background-color: #272a31;
+}
+
+.about-ft-text {
+  font-family: lato1;
+  color: white;
+}
+
+.about-ft-logo {
+  font-family: cocogoose1;
+  font-size: 50px;
+  font-weight: bold;
+  margin: auto;
+  color: white;
+}
+
 /*# sourceMappingURL=styles.css.map */
