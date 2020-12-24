@@ -220,7 +220,7 @@ section .test1{
 
 .line {
   width: 30px;
-  height: 4px;
+  height: 1px;
   border: 2px solid $o-color;
 }
 
@@ -423,3 +423,34 @@ section .test1{
   margin: auto;
   color: white;
 }
+
+//****************************** Tickets ************************************
+
+.ticket1 {
+  background-color: $body-color;
+}
+
+.ticket-ins2 li {
+  font-family: lato1;
+  color:$o-color;
+}
+
+.ticket-ins2 li .t-inst2 {
+  font-family: lato1;
+  color:$b-color;
+}
+
+.ticket-ins {
+  border-radius: 24px;
+  height: 40px;
+  width: 40%;
+  padding-top: 6px;
+  margin: auto;
+}
+
+.table  {
+  border: 5px dashed;
+  border-color: $o-color;
+}
+
+

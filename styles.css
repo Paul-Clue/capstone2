@@ -207,7 +207,7 @@ section .test1 {
 
 .line {
   width: 30px;
-  height: 4px;
+  height: 1px;
   border: 2px solid #ec5242;
 }
 
@@ -401,6 +401,33 @@ section .test1 {
   font-weight: bold;
   margin: auto;
   color: white;
+}
+
+.ticket1 {
+  background-color: #f9f9f9;
+}
+
+.ticket-ins2 li {
+  font-family: lato1;
+  color: #ec5242;
+}
+
+.ticket-ins2 li .t-inst2 {
+  font-family: lato1;
+  color: #272a31;
+}
+
+.ticket-ins {
+  border-radius: 24px;
+  height: 40px;
+  width: 40%;
+  padding-top: 6px;
+  margin: auto;
+}
+
+.table {
+  border: 5px dashed;
+  border-color: #ec5242;
 }
 
 /*# sourceMappingURL=styles.css.map */
