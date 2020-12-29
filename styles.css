@@ -2,17 +2,14 @@
   font-family: cocogoose1;
   src: url("fonts/cocogoose/Cocogoose_trial.otf");
 }
-
 @font-face {
-  font-family: arial, helvetica, sans-serif, lato1, times;
+  font-family: lato1, arial, helvetica, sans-serif, times;
   src: url("fonts/lato/Lato-Regular.ttf");
 }
-
 @font-face {
   font-family: lato2;
   src: url("fonts/lato/Lato-BlackItalic.ttf");
 }
-
 .container {
   overflow: hidden;
 }
@@ -23,11 +20,8 @@
 }
 
 .nav3 a {
-  font-family: Arial, Helvetica, sans-serif, lato11, times;
+  font-family: lato1, Arial, Helvetica, sans-serif, times;
   color: #d3d3d3;
-  margin-top: 10px;
-  z-index: 10;
-  padding-right: 40px;
 }
 
 body {
@@ -50,6 +44,16 @@ nav {
   z-index: 10;
 }
 
+.nav3 {
+  margin-top: 10px;
+  z-index: 10;
+}
+
+.nav3 a {
+  padding-right: 40px;
+  z-index: 10;
+}
+
 .bg-image {
   width: 100%;
   height: 120px;
@@ -63,6 +67,7 @@ nav {
   border: 4px solid #ec5242;
   color: #ec5242;
   z-index: 3;
+  margin-top: -6px;
 }
 
 .sec1 {
@@ -78,7 +83,7 @@ nav {
   position: relative;
   top: 550px;
   left: 200px;
-  z-index: 2;
+  z-index: 1;
 }
 
 .bg2 {
@@ -134,7 +139,7 @@ nav {
   position: relative;
   top: 70px;
   left: 300px;
-  z-index: 1;
+  z-index: 0;
 }
 
 .bg10 {
@@ -155,29 +160,30 @@ nav {
 }
 
 section h1 {
-  font-family: arial, helvetica, sans-serif, lato1, times;
+  font-family: lato1, arial, helvetica, sans-serif, times;
   font-size: 12px;
   color: #ec5242;
 }
 
 .small-div {
   background-color: #f9f9f9;
-  font-family: Arial, Helvetica, sans-serif, lato1, times;
-  font-size: 12px;
+  font-family: lato1, arial, helvetica, sans-serif, times;
+  font-size: 9px;
   font-weight: bold;
   color: #272a31;
 }
 
 .small-div2 {
   color: #272a31;
-  font-family: arial, helvetica, sans-serif, cocogoose1, times;
-  font-size: 12px;
+  font-family: cocogoose1, arial, helvetica, sans-serif, times;
+  font-size: 17px;
 }
 
 .small-div3 {
   color: #272a31;
-  font-family: arial, helvetica, sans-serif, lato1, times;
-  font-size: 12px;
+  font-family: lato1, arial, helvetica, sans-serif, times;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .row-s {
@@ -185,7 +191,7 @@ section h1 {
 }
 
 section .test1 {
-  font-family: Arial, Helvetica, sans-serif, cocogoose1, times;
+  font-family: cocogoose1, arial, helvetica, sans-serif, times;
   background-image: url(./img/orange2.jpg);
   background-repeat: no-repeat;
   -webkit-background-clip: text;
@@ -215,7 +221,7 @@ section .test1 {
 .near-ft {
   display: flex;
   justify-content: space-between;
-  font-family: Arial, Helvetica, sans-serif, cocogoose1, times;
+  font-family: cocogoose1, arial, helvetica, sans-serif, times;
   font-weight: bold;
 }
 
@@ -225,12 +231,12 @@ section .test1 {
 }
 
 .cardd-text {
-  font-family: arial, helvetica, sans-serif, lato1, times;
+  font-family: lato1, arial, helvetica, sans-serif, times;
   font-weight: bold;
   position: absolute;
-  left: 160px;
-  top: -80px;
-  color: white;
+  left: 180px;
+  top: -100px;
+  color: #d3d3d3;
   width: 300px;
   margin-right: 0;
 }
@@ -245,14 +251,14 @@ section .test1 {
 }
 
 .see {
-  font-family: arial, helvetica, sans-serif, lato1, times;
+  font-family: lato1, arial, helvetica, sans-serif, times;
   font-weight: bold;
   font-size: 13px;
   color: white;
 }
 
 .f-speak {
-  font-family: arial, helvetica, sans-serif, lato1, times;
+  font-family: lato1, arial, helvetica, sans-serif, times;
   color: #272a31;
   font-size: 14px;
 }
@@ -288,7 +294,7 @@ section .test1 {
 }
 
 .cardd-text3 {
-  font-family: arial, helvetica, sans-serif, lato2, times;
+  font-family: lato2, arial, helvetica, sans-serif, times;
   color: #ec5242;
   font-size: 10px;
 }
@@ -305,7 +311,44 @@ section .test1 {
   height: 110px;
 }
 
+@media (max-width: 989px) and (min-width: 768px) {
+  .nav-soc {
+    margin-left: 60%;
+  }
+
+  .nav3 {
+    position: relative;
+    top: -60px;
+    left: 90px;
+  }
+}
 @media (min-width: 768px) {
+  .c-third-sec {
+    width: 25%;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-right: 5px;
+  }
+
+  .card-text {
+    padding-left: 30%;
+  }
+
+  .card-text22 {
+    padding-left: 22%;
+  }
+
+  .card-text23 {
+    font-weight: bold;
+    color: #d3d3d3;
+    font-family: lato1, arial, helvetica, sans-serif, times;
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .card-img {
+    margin-left: 30%;
+  }
+
   .cardd-text2 {
     position: absolute;
     left: 25px;
@@ -320,22 +363,24 @@ section .test1 {
     left: 20px;
   }
 }
-
 @media (max-width: 768px) {
   .foot-img {
     width: 40px;
     height: 20px;
   }
 }
-
 .f-speak2 {
-  font-family: arial, helvetica, sans-serif, lato1, times;
+  font-family: lato1, arial, helvetica, sans-serif, times;
   color: #d3d3d3;
   font-size: 20px;
 }
 
 .foot1 {
   background-color: #272a31;
+}
+
+.last {
+  margin-left: 30px;
 }
 
 .about-nav2 {
@@ -351,7 +396,7 @@ section .test1 {
   height: 150px;
   background-color: white;
   color: #272a31;
-  font-family: arial, helvetica, sans-serif, lato1, times;
+  font-family: lato1, arial, helvetica, sans-serif, times;
   padding-top: 30px;
 }
 
@@ -361,7 +406,7 @@ section .test1 {
 }
 
 .about-text .coco {
-  font-family: arial, helvetica, sans-serif, cocogoose1, times;
+  font-family: cocogoose1, arial, helvetica, sans-serif, times;
   font-weight: bold;
   font-size: 10px;
 }
@@ -371,20 +416,20 @@ section .test1 {
 }
 
 .about-log1 {
-  font-family: arial, helvetica, sans-serif, lato1, times;
+  font-family: lato1, arial, helvetica, sans-serif, times;
   font-weight: bold;
   color: #272a31;
   font-size: 20px;
 }
 
 .about-log2 {
-  font-family: arial, helvetica, sans-serif, lato1, times;
+  font-family: lato1, arial, helvetica, sans-serif, times;
   color: #272a31;
   font-size: 12px;
 }
 
 .logo {
-  font-family: Arial, Helvetica, sans-serif, cocogoose1, times;
+  font-family: cocogoose1, arial, helvetica, sans-serif, times;
   font-size: 50px;
   font-weight: bold;
   margin: auto;
@@ -413,7 +458,6 @@ section .test1 {
     margin-left: 20px;
   }
 }
-
 .pics {
   width: 100%;
   padding: 0;
@@ -421,7 +465,7 @@ section .test1 {
 }
 
 .about-btm {
-  font-family: arial, helvetica, sans-serif, lato1, times;
+  font-family: lato1, arial, helvetica, sans-serif, times;
   color: #272a31;
   font-size: 12px;
   font-weight: bold;
@@ -433,12 +477,12 @@ section .test1 {
 }
 
 .about-ft-text {
-  font-family: arial, helvetica, sans-serif, lato1, times;
+  font-family: lato1, arial, helvetica, sans-serif, times;
   color: #d3d3d3;
 }
 
 .about-ft-logo {
-  font-family: arial, helvetica, sans-serif, cocogoose1, times;
+  font-family: cocogoose1, arial, helvetica, sans-serif, times;
   font-size: 50px;
   font-weight: bold;
   margin: auto;
@@ -450,12 +494,12 @@ section .test1 {
 }
 
 .ticket-ins2 li {
-  font-family: arial, helvetica, sans-serif, lato1, times;
+  font-family: lato1, arial, helvetica, sans-serif, times;
   color: #ec5242;
 }
 
 .ticket-ins2 li .t-inst2 {
-  font-family: arial, helvetica, sans-serif, lato1, times;
+  font-family: lato1, arial, helvetica, sans-serif, times;
   color: #272a31;
 }
 
@@ -480,13 +524,11 @@ section .test1 {
     font-size: 8px;
   }
 }
-
 @media (min-width: 768px) {
   .ticket-ins {
     height: 80px;
   }
 }
-
 .table {
   border: 5px dashed;
   border-color: #ec5242;
