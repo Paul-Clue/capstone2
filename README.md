@@ -3,7 +3,7 @@ This is the capstone project
 # Getting started :
 this website can be viewd better on the screen size of of 1920 X 1080 in the firefox browser or chrome.
 you can also download the repo and open the ''index.html" file with Mozilla Firefox.
-![screenshot](./img/Screenshot(1).png)
+![screenshot](./img/Screenshot(2).png)
 The purpose of this project is to revisit all of the things that I have learned in the HTML course. The project requires that I build a professional website. The website must be composed of three pages that are all linked through the index.html page. I built a main page, an about page, and a ticket page. 
 ## BUILT WITH
     -HTML
