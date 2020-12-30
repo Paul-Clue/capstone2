@@ -406,8 +406,9 @@ section .test1 {
 }
 
 .about-text {
-  height: 300px;
   margin-top: 0;
+  width: 90%;
+  margin-left: 5%;
 }
 
 .about-text p {
@@ -416,21 +417,18 @@ section .test1 {
   color: $b-color;
   font-family: lato1, arial, helvetica, sans-serif, times;
   padding-top: 30px;
-}
-
-.text-center {
-  padding-left: 80px;
-  padding-right: 80px;
+  font-weight: bold;
 }
 
 .about-text .coco {
   font-family: cocogoose1, arial, helvetica, sans-serif, times;
   font-weight: bold;
-  font-size: 10px;
+  font-size: 12px;
 }
 
-.coco1 {
+.about-text .coco1{
   margin-top: 10px;
+  background-color: $body-color;
 }
 
 .about-log1 {
@@ -444,7 +442,6 @@ section .test1 {
   font-family: lato1, arial, helvetica, sans-serif, times;
   color: $b-color;
   font-size: 12px;
-  // width: 700px;
 }
 
 .logo {
@@ -454,28 +451,43 @@ section .test1 {
   margin: auto;
 }
 
-.about-img1 img {
+.about-img1 {
   width: 250px;
   height: 200px;
 }
 
+.img-marg {
+  margin-left: 22%;
+  margin-right: 22%;
+}
+
+@media (max-width: 989px) {
+  .about-text p{
+    height: 200px;
+    margin-top: 30px;
+    padding-top: 0;
+    font-size: 75%;
+  }
+}
+
 @media (min-width: 768px) {
   .about-img1 {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-  }
-
-  .about-img1 img {
     width: 250px;
     height: 200px;
-    margin-left: 190px;
+    margin-right: 5px;
   }
 
-  .about-img1 .about-img2 {
-    margin-left: 20px;
+  .img-marg {
+    margin-left: 15%;
+    margin-right: 10px;
   }
+
+  .img-marg2 {
+    position: relative;
+    top: -217px;
+    left: 55%;
+  }
+
 }
 
 .pics {
