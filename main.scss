@@ -4,7 +4,7 @@
 }
 
 @font-face {
-  font-family: lato1, arial, helvetica, sans-serif,times; 
+  font-family: lato1, arial, helvetica, sans-serif, times;
   src: url('fonts/lato/Lato-Regular.ttf');
 }
 
@@ -90,7 +90,7 @@ nav {
   color: $b-color;
   z-index: 3;
 }
-   // *********************  INDEX FIRST SECTOIN ****************************//
+// *********************  INDEX FIRST SECTOIN ****************************//
 .bg1 {
   position: $bg-icon-position;
   top: 550px;
@@ -160,7 +160,7 @@ nav {
   left: 8px;
   z-index: 1;
 }
-  // ****************************** SECOND SECTION **************************************
+// ****************************** SECOND SECTION **************************************
 .sec2 {
   position: relative;
   top: -100px;
@@ -323,8 +323,7 @@ section .test1 {
   height: 110px;
 }
 
-@media (max-width: 989px) and (min-width: 768px){
-
+@media (max-width: 989px) and (min-width: 768px) {
   .nav-soc {
     margin-left: 60%;
   }
@@ -337,13 +336,12 @@ section .test1 {
 }
 
 @media (min-width: 768px) {
-
   .c-third-sec {
     width: 25%;
     background-color: rgba(350, 350, 350, 0.2);
     margin-right: 5px;
   }
-  
+
   .card-text {
     padding-left: 30%;
   }
@@ -426,7 +424,7 @@ section .test1 {
   font-size: 12px;
 }
 
-.about-text .coco1{
+.about-text .coco1 {
   margin-top: 10px;
   background-color: $body-color;
 }
@@ -462,7 +460,7 @@ section .test1 {
 }
 
 @media (max-width: 989px) {
-  .about-text p{
+  .about-text p {
     height: 200px;
     margin-top: 30px;
     padding-top: 0;
@@ -487,7 +485,6 @@ section .test1 {
     top: -217px;
     left: 55%;
   }
-
 }
 
 .pics {
