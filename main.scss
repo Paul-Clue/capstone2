@@ -278,8 +278,12 @@ section .test1 {
 
 .cardd2 {
   height: 110px;
-  background-color: $body-color;
   color: $b-color;
+}
+
+.about-logo {
+  width: 30%;
+  padding-top: 60px;
 }
 
 .cardd-text2 {

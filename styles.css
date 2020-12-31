@@ -266,8 +266,12 @@ section .test1 {
 
 .cardd2 {
   height: 110px;
-  background-color: #f9f9f9;
   color: #272a31;
+}
+
+.about-logo {
+  width: 30%;
+  padding-top: 60px;
 }
 
 .cardd-text2 {
