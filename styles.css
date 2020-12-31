@@ -383,8 +383,8 @@ section .test1 {
     height: 20px;
   }
 
-  section .test1 {
-    font-size: 45px;
+  section .about-test1 {
+    font-size: 30px;
   }
 }
 .f-speak2 {
