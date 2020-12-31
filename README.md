@@ -1,5 +1,9 @@
 # HTML Capstone Project
-This is the capstone project. The purpose of this project is to revisit all of the things that I have learned in the HTML course. The project requires that I build a professional website. The website must be composed of three pages that are all linked through the index.html page. I built a main page, an about page, and a ticket page. 
+- Brief Description:
+This is the capstone project. The purpose of this project is to revisit all of the things that I have learned in the HTML course. The project requires that I clone a professional website. I must also add my own personal touches to the clone. I must change the business and branding. The website must be composed of three pages that are all linked through the index.html page. I built a main page, an about page, and a ticket page.
+- The main page is the landing page and showcases all of what the business has to offer its customers.
+- The about page offers some information about the company itself and the people who work for it.
+- The ticket page gives an example of what how the business business handles ticket orders and meal requests.
 ![screenshot](./img/Screenshot(2).png)
 
 ## BUILT WITH
@@ -29,6 +33,7 @@ Give a \* if you like the project
 ## Acknowledgements
 - The bootstrap 4 documentations
 - Google chrome browser for pics of the celebs on the site
+- The website that I cloned was built by Cindy Shin.
 
 ## 📝 License MIT
 This project is ![MIT](https://github.com/Paul-Clue/Capstone1/blob/main/LICENSE)
