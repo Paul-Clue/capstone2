@@ -290,8 +290,9 @@ section .test1 {
 }
 
 .cardd-text2 {
+  width: 300px;
   position: absolute;
-  left: 100px;
+  left: 130px;
   top: -100px;
   color: black;
   font-size: 12px;
@@ -299,6 +300,12 @@ section .test1 {
 
 .cardd-text4 {
   padding-top: -300px;
+}
+
+.cardd-text3 {
+  font-family: lato2, arial, helvetica, sans-serif, times;
+  color: $o-color;
+  font-size: 10px;
 }
 
 .card-h2 {
@@ -311,12 +318,6 @@ section .test1 {
   margin: 0;
   padding-right: 50px;
   border-top: 3px solid $g-color;
-}
-
-.cardd-text3 {
-  font-family: lato2, arial, helvetica, sans-serif, times;
-  color: $o-color;
-  font-size: 10px;
 }
 
 .space {
@@ -372,7 +373,7 @@ section .test1 {
 
   .cardd-text2 {
     position: absolute;
-    left: 25px;
+    left: 70px;
     top: 0;
     color: black;
     font-size: 12px;
