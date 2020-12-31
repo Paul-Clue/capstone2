@@ -35,6 +35,7 @@ $body-color: #f9f9f9;
 }
 
 body {
+  overflow-x: hidden;
   background-color: $body-color;
 }
 
@@ -399,7 +400,7 @@ section .test1 {
   background-color: $b-color;
 }
 
-.foot-list li{
+.foot-list li {
   padding-right: 4%;
 }
 
@@ -493,6 +494,12 @@ section .test1 {
     position: relative;
     top: -217px;
     left: 55%;
+  }
+
+  .about-img-gard {
+    position: relative;
+    top: -500px;
+    left: 300px;
   }
 }
 
