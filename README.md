@@ -12,7 +12,7 @@ This is the capstone project. The purpose of this project is to revisit all of t
     - Bootstrap
 
 ## LIVE DEMO
-[Live Demo Link]( https://paul-clue.github.io/Capstone1/)
+[Live Demo Link](  https://paul-clue.github.io/capstone2/)
 
 # Getting started :
 this website can be viewd better on the screen size of of 1920 X 1080 in the firefox browser or chrome.
