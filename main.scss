@@ -240,6 +240,9 @@ section .test1 {
 }
 
 .card-img {
+  width: 100px;
+  height: 100px;
+  margin-left: 2px;
   object-fit: cover;
 }
 
@@ -247,7 +250,7 @@ section .test1 {
   font-family: lato1, arial, helvetica, sans-serif, times;
   font-weight: bold;
   position: absolute;
-  left: 180px;
+  left: 220px;
   top: -100px;
   color: $g-color;
   width: 300px;
@@ -364,7 +367,7 @@ section .test1 {
   }
 
   .card-img {
-    margin-left: 30%;
+    margin-left: 12%;
   }
 
   .cardd-text2 {
@@ -379,6 +382,12 @@ section .test1 {
     position: relative;
     top: 20px;
     left: 20px;
+  }
+}
+
+@media (min-width: 990px) {
+  .card-img {
+    margin-left: 23%;
   }
 }
 
