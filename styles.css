@@ -384,6 +384,10 @@ section .test1 {
   background-color: #272a31;
 }
 
+.foot-list li {
+  padding-right: 4%;
+}
+
 .last {
   margin-left: 30px;
 }
