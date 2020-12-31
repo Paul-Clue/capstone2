@@ -4,7 +4,7 @@ This is the capstone project. The purpose of this project is to revisit all of t
 - The main page is the landing page and showcases all of what the business has to offer its customers.
 - The about page offers some information about the company itself and the people who work for it.
 - The ticket page gives an example of what how the business business handles ticket orders and meal requests.
-![screenshot](./img/Screenshot(2).png)
+![screenshot](./img/Screenshot(3).png)
 
 ## BUILT WITH
     - HTML

@@ -68,8 +68,8 @@ nav {
 }
 
 .bg-image {
+  height: 100%;
   width: 100%;
-  height: 120px;
   opacity: 0.1;
   z-index: 2;
   position: absolute;
@@ -467,6 +467,10 @@ section .test1 {
 .img-marg {
   margin-left: 22%;
   margin-right: 22%;
+}
+
+.card-img {
+  object-fit: cover;
 }
 
 @media (max-width: 989px) {
