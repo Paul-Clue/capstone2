@@ -240,8 +240,7 @@ section .test1 {
 }
 
 .card-img {
-  width: 60px;
-  height: 100px;
+  object-fit: cover;
 }
 
 .cardd-text {
@@ -467,10 +466,6 @@ section .test1 {
 .img-marg {
   margin-left: 22%;
   margin-right: 22%;
-}
-
-.card-img {
-  object-fit: cover;
 }
 
 @media (max-width: 989px) {
