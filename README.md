@@ -33,4 +33,3 @@ Give a \* if you like the project
 ## 📝 License MIT
 This project is ![MIT](https://github.com/Paul-Clue/Capstone1/blob/main/LICENSE)
 
-Microverse CapStone Project
