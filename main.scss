@@ -169,6 +169,7 @@ nav {
 .main-w {
   position: relative;
   z-index: 3;
+  font-size: 30px;
 }
 
 section h1 {
@@ -180,7 +181,7 @@ section h1 {
 .small-div {
   background-color: $body-color;
   font-family: lato1, arial, helvetica, sans-serif, times;
-  font-size: 9px;
+  font-size: 12px;
   font-weight: bold;
   color: $b-color;
 }
@@ -188,13 +189,13 @@ section h1 {
 .small-div2 {
   color: $b-color;
   font-family: cocogoose1, arial, helvetica, sans-serif, times;
-  font-size: 17px;
+  font-size: 23px;
 }
 
 .small-div3 {
   color: $b-color;
   font-family: lato1, arial, helvetica, sans-serif, times;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
 }
 
@@ -208,7 +209,7 @@ section .test1 {
   background-repeat: no-repeat;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 40px;
+  font-size: 80px;
   text-transform: uppercase;
   font-weight: 800;
   -webkit-font-smoothing: antialiased;

@@ -2,17 +2,14 @@
   font-family: cocogoose1;
   src: url("fonts/cocogoose/Cocogoose_trial.otf");
 }
-
 @font-face {
   font-family: lato1, arial, helvetica, sans-serif, times;
   src: url("fonts/lato/Lato-Regular.ttf");
 }
-
 @font-face {
   font-family: lato2;
   src: url("fonts/lato/Lato-BlackItalic.ttf");
 }
-
 .container {
   overflow: hidden;
 }
@@ -25,8 +22,6 @@
 .nav3 a {
   font-family: lato1, Arial, Helvetica, sans-serif, times;
   color: #d3d3d3;
-  padding-right: 40px;
-  z-index: 10;
 }
 
 body {
@@ -51,6 +46,11 @@ nav {
 
 .nav3 {
   margin-top: 10px;
+  z-index: 10;
+}
+
+.nav3 a {
+  padding-right: 40px;
   z-index: 10;
 }
 
@@ -157,6 +157,7 @@ nav {
 .main-w {
   position: relative;
   z-index: 3;
+  font-size: 30px;
 }
 
 section h1 {
@@ -168,7 +169,7 @@ section h1 {
 .small-div {
   background-color: #f9f9f9;
   font-family: lato1, arial, helvetica, sans-serif, times;
-  font-size: 9px;
+  font-size: 12px;
   font-weight: bold;
   color: #272a31;
 }
@@ -176,13 +177,13 @@ section h1 {
 .small-div2 {
   color: #272a31;
   font-family: cocogoose1, arial, helvetica, sans-serif, times;
-  font-size: 17px;
+  font-size: 23px;
 }
 
 .small-div3 {
   color: #272a31;
   font-family: lato1, arial, helvetica, sans-serif, times;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
 }
 
@@ -196,7 +197,7 @@ section .test1 {
   background-repeat: no-repeat;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 40px;
+  font-size: 80px;
   text-transform: uppercase;
   font-weight: 800;
   -webkit-font-smoothing: antialiased;
@@ -322,7 +323,6 @@ section .test1 {
     left: 90px;
   }
 }
-
 @media (min-width: 768px) {
   .c-third-sec {
     width: 25%;
@@ -364,14 +364,12 @@ section .test1 {
     left: 20px;
   }
 }
-
 @media (max-width: 768px) {
   .foot-img {
     width: 40px;
     height: 20px;
   }
 }
-
 .f-speak2 {
   font-family: lato1, arial, helvetica, sans-serif, times;
   color: #d3d3d3;
@@ -454,7 +452,6 @@ section .test1 {
     font-size: 75%;
   }
 }
-
 @media (min-width: 768px) {
   .about-img1 {
     width: 250px;
@@ -473,7 +470,6 @@ section .test1 {
     left: 55%;
   }
 }
-
 .pics {
   width: 100%;
   padding: 0;
@@ -540,13 +536,11 @@ section .test1 {
     font-size: 8px;
   }
 }
-
 @media (min-width: 768px) {
   .ticket-ins {
     height: 80px;
   }
 }
-
 .table {
   border: 5px dashed;
   border-color: #ec5242;
