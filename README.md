@@ -1,4 +1,4 @@
-# Newsweek-clone
+# HTML Capstone Project
 This is the capstone project
 # Getting started :
 this website can be viewd better on the screen size of of 1920 X 1080 in the firefox browser or chrome.
