@@ -2,14 +2,17 @@
   font-family: cocogoose1;
   src: url("fonts/cocogoose/Cocogoose_trial.otf");
 }
+
 @font-face {
   font-family: lato1, arial, helvetica, sans-serif, times;
   src: url("fonts/lato/Lato-Regular.ttf");
 }
+
 @font-face {
   font-family: lato2;
   src: url("fonts/lato/Lato-BlackItalic.ttf");
 }
+
 .dropbtn {
   color: white;
   padding: 16px;
@@ -50,6 +53,8 @@
 .nav3 a {
   padding-right: 40px;
   z-index: 10;
+  font-family: lato1, Arial, Helvetica, sans-serif, times;
+  color: #d3d3d3;
 }
 
 .dropdown-content a:hover {
@@ -67,11 +72,6 @@
 
 .container {
   overflow: hidden;
-}
-
-.nav3 a {
-  font-family: lato1, Arial, Helvetica, sans-serif, times;
-  color: #d3d3d3;
 }
 
 body {
@@ -379,6 +379,7 @@ section .test1 {
     left: 90px;
   }
 }
+
 @media (min-width: 768px) {
   .c-third-sec {
     width: 25%;
@@ -420,11 +421,13 @@ section .test1 {
     left: 20px;
   }
 }
+
 @media (min-width: 990px) {
   .card-img {
     margin-left: 23%;
   }
 }
+
 @media (max-width: 768px) {
   .foot-img {
     width: 40px;
@@ -457,6 +460,7 @@ section .test1 {
     width: 88px;
   }
 }
+
 @media (min-width: 320px) and (max-width: 415px) {
   .cardd-text {
     width: 180px;
@@ -468,12 +472,14 @@ section .test1 {
     word-wrap: break-word;
   }
 }
+
 @media (min-width: 416px) {
   .cardd-text {
     left: 35%;
     margin-top: 20px;
   }
 }
+
 .f-speak2 {
   font-family: lato1, arial, helvetica, sans-serif, times;
   color: #d3d3d3;
@@ -560,6 +566,7 @@ section .test1 {
     font-size: 75%;
   }
 }
+
 @media (min-width: 768px) {
   .about-img1 {
     width: 250px;
@@ -584,6 +591,7 @@ section .test1 {
     left: 300px;
   }
 }
+
 .pics {
   width: 100%;
   padding: 0;
@@ -650,11 +658,13 @@ section .test1 {
     font-size: 8px;
   }
 }
+
 @media (min-width: 768px) {
   .ticket-ins {
     height: 80px;
   }
 }
+
 .table {
   border: 5px dashed;
   border-color: #ec5242;
