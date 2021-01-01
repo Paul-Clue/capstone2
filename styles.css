@@ -2,15 +2,54 @@
   font-family: cocogoose1;
   src: url("fonts/cocogoose/Cocogoose_trial.otf");
 }
-
 @font-face {
   font-family: lato1, arial, helvetica, sans-serif, times;
   src: url("fonts/lato/Lato-Regular.ttf");
 }
-
 @font-face {
   font-family: lato2;
   src: url("fonts/lato/Lato-BlackItalic.ttf");
+}
+.dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.drop-men {
+  height: 150px;
+  background-color: #e2e0e0;
 }
 
 .container {
@@ -19,13 +58,12 @@
 
 .nav-item a {
   color: white;
+  z-index: 2;
 }
 
 .nav3 a {
   font-family: lato1, Arial, Helvetica, sans-serif, times;
   color: #d3d3d3;
-  padding-right: 40px;
-  z-index: 10;
 }
 
 body {
@@ -51,6 +89,11 @@ nav {
 
 .nav3 {
   margin-top: 10px;
+  z-index: 10;
+}
+
+.nav3 a {
+  padding-right: 40px;
   z-index: 10;
 }
 
@@ -237,7 +280,7 @@ section .test1 {
   font-family: lato1, arial, helvetica, sans-serif, times;
   font-weight: bold;
   position: absolute;
-  left: 220px;
+  left: 55%;
   top: -100px;
   color: #d3d3d3;
   width: 300px;
@@ -330,7 +373,6 @@ section .test1 {
     left: 90px;
   }
 }
-
 @media (min-width: 768px) {
   .c-third-sec {
     width: 25%;
@@ -372,24 +414,54 @@ section .test1 {
     left: 20px;
   }
 }
-
 @media (min-width: 990px) {
   .card-img {
     margin-left: 23%;
   }
 }
-
 @media (max-width: 768px) {
   .foot-img {
     width: 40px;
     height: 20px;
   }
 
+  section .test1 {
+    font-size: 30px;
+  }
+
   section .about-test1 {
     font-size: 30px;
   }
-}
 
+  .cardd-text {
+    font-size: 12px;
+    left: 55%;
+    word-wrap: break-word;
+  }
+
+  .card-h {
+    font-size: 12px;
+  }
+
+  .cardd {
+    width: 110%;
+  }
+
+  .card-img {
+    width: 88px;
+  }
+}
+@media (min-width: 320px) {
+  .cardd-text {
+    width: 180px;
+    left: 48%;
+  }
+
+  .cardd-text2 {
+    width: 55%;
+    word-wrap: break-word;
+  }
+}
 .f-speak2 {
   font-family: lato1, arial, helvetica, sans-serif, times;
   color: #d3d3d3;
@@ -476,7 +548,6 @@ section .test1 {
     font-size: 75%;
   }
 }
-
 @media (min-width: 768px) {
   .about-img1 {
     width: 250px;
@@ -501,7 +572,6 @@ section .test1 {
     left: 300px;
   }
 }
-
 .pics {
   width: 100%;
   padding: 0;
@@ -568,13 +638,11 @@ section .test1 {
     font-size: 8px;
   }
 }
-
 @media (min-width: 768px) {
   .ticket-ins {
     height: 80px;
   }
 }
-
 .table {
   border: 5px dashed;
   border-color: #ec5242;

@@ -13,6 +13,47 @@
   src: url('fonts/lato/Lato-BlackItalic.ttf');
 }
 
+.dropbtn {
+  // background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.drop-men {
+  height:150px;
+  background-color: #e2e0e0;
+}
+
 .container {
   overflow: hidden;
 }
@@ -250,7 +291,7 @@ section .test1 {
   font-family: lato1, arial, helvetica, sans-serif, times;
   font-weight: bold;
   position: absolute;
-  left: 220px;
+  left: 55%;
   top: -100px;
   color: $g-color;
   width: 300px;
@@ -398,8 +439,42 @@ section .test1 {
     height: 20px;
   }
 
+  section .test1 {
+    font-size: 30px;
+  }
+
   section .about-test1 {
     font-size: 30px;
+  }
+
+  .cardd-text {
+    font-size: 12px;
+    left: 55%;
+    word-wrap: break-word;
+  }
+
+  .card-h {
+    font-size: 12px;
+  }
+
+  .cardd {
+    width: 110%;
+  }
+
+  .card-img {
+    width: 88px;
+  }
+}
+
+@media (min-width: 320px) {
+  .cardd-text {
+    width: 180px;
+    left: 48%;
+  }
+
+  .cardd-text2 {
+    width: 55%;
+    word-wrap: break-word;
   }
 }
 
