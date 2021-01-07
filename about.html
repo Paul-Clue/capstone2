@@ -17,7 +17,7 @@
                 <div class="col-lg-4"></div>
                 <div class="col-lg-4"></div>
                 <div class="col-lg-4">
-                    <ul class="nav">
+                    <ul class="nav  nav-soc">
                         <li class="nav-item pr-3"><a href="#"> <i class="fa fa-facebook-f"></i></a></li>
                         <li class="nav-item pr-3"><a href="#"><i class="fa fa-twitter"></i></a></li>
                         <li class="nav-item pr-3"><a href="#"> English</a></li>
@@ -33,25 +33,32 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4">
-                    <a class="navbar-brand " href="#"><img src="./img/c-logo.png" alt=""></a>
+                    <a class="navbar-brand " href="index.html"><img src="./img/c-logo.png" alt="logo"></a>
                 </div>
                 <div class="col-lg-8">
-                    <ul class="nav nav3 ">
-                        <a href="about.html"> About</a>
-                        <a href="tickets.html" class="nav-item pr-6">Tickets</a>
-                        <li class="nav-item pr-6 "><a href="#">Join</a></li>
-                        <li class="nav-item pr-6"><a href="#">Sponsor</a></li>
-                        <li class="nav-item pr-6"><a href="#">News</a></li>
-                        <li class="nav-item pr-6"><a href="#" class="btn a-btn" role="button">buton </a></li>
-                    </ul>
+                    <div class="nav nav3 ">
+                        <a href="index.html"> Home</a>
+                      <a href="tickets.html" class="nav-item pr-6">Tickets</a>
+                        <a href="#" class="nav-item pr-6 ">Join</a>
+                        <a href="#" class="nav-item pr-6 ">Sponsor</a>
+                        <a href="#" class="nav-item pr-6 ">News</a>
+                        <p class="nav-item pr-6"> <a href="#" class="btn a-btn nav-item pr-6" role="button">buton </a></p>
+                    </div> 
                 </div>
             </div>
         </div>
     </nav>
     <div>
-        <div class="container d-md-none d-lg-none d-xl-none d-sm-block">
-            <i class="fa fa-bars fa-2x"></i>
-        </div>
+        <div class="container-flex d-md-none d-lg-none d-xl-none d-sm-block drop-men" >
+            <div class="dropdown">
+                <button class="dropbtn"><i class="fa fa-bars fa-2x"></i></button>
+                <div class="dropdown-content"  style="z-index: 10;">
+                <a href="Index.html">Home</a>
+                <a href="tickets.html">Ticket</a>
+                </div>
+              </div>
+        </div>  
+        <!-- <i class="fa fa-bars fa-2x"></i> -->
     </div>
     <!--****************************** /HEADER ************************************-->
 
@@ -59,21 +66,23 @@
    <!--****************************** First-Section ************************************-->
  
 
-    <section class="container-fluid  text-center border-bottom">
+    <section class="container-fluid  text-center border-bottom ">
+        <div class="about-first-sec">
         <div class="container main-w ">
             <div class="space3"></div>
-            <h1 class="test1 main-w">BIG DEAL PROMOTIONS</h1>
+            <h1 class="test1 main-w about-test1">BIG DEAL PROMOTIONS</h1>
+            <div class="line position-relative top-50 start-50 mb-2 "></div>
         </div>
 
         <div class="space3"></div>
         <div class="about-text">
-            <p class="border">
-           Big Deal Promotions is the top party, concert, etc.. team in the U.S.. Although we work with exclusive 
-           artists and celebs, we cater to almost all bugdets. Every one on our team has worked or is currently working in 
-           Hollywood, the recording industry, and sports. Our contacts are endless. There is nothing or no one wwe can't get to 
-           your next gathering.
+            <p class="border about-text p-3">
+                Big Deal Promotions is the top party, concert, and big venue promotion company in the United States. Although we work with A-list 
+                artists and celebs, we cater to almost all bugdets. Every one on our team has worked or is currently working in 
+                Hollywood, the recording industry, and the sports industry. Our contacts are endless. There is nothing or no one we can't get to 
+                your next gathering.
              </p>
-            
+             <div class="space"></div> 
              <p class="coco1">
                  The best way to get in touch with us is through email.
                  <br>
@@ -87,6 +96,7 @@
 
         <div class="space2"></div>
         <div class="space2"></div>
+    </div>
 
     </section>
 
@@ -101,15 +111,15 @@
             <div class="line position-relative top-50 start-50 mb-2 "></div>
 
             <p class="about-log3 ">
-                OUr logo was designed by the best logo artist in the world.
+                Our logo was designed by the best logo artist in the world.
 
             </p>
 
-            <div class=" border m-auto">
+            <div class=" border m-auto about-logo">
                 <div class="cardd2 mb-3 text-wrap" >
                     <div class="row">
                         <div class="text-center ">
-                            <p class="logo  "><img src="./img/c-logo.png" alt="">BDP
+                            <p class="logo  "><img src="./img/c-logo.png" alt="logo">BDP
                         </div>
                           
                     </div>
@@ -137,18 +147,17 @@
             </p>
             <div class="space2"></div>
             
-            <div class="container">
-                <div class="row"></div>
-                <div class="col-md3"></div>
-                
-            <div class="pics col-md-6">
-                <p class="about-img1">
-                   <img src="./img/conf1.jpg" alt=""><img src="./img/conf2.jpg " alt=""  class="about-img2">
-                </p>
-                <div class="col-md-3"></div>
-            </div>
-            </div>
-            </div>
+           <div class="d-md-none">
+            <p class="img-marg d-md-none"><img src="./img/conf1.jpg" alt="conference" class="about-img1"></p><br>
+            <p class="img-marg d-md-none"><img src="./img/conf2.jpg" alt="conference" class="about-img1"></p>
+           </div>
+
+           <div class="d-flex d-none d-md-block">
+            <p class="img-marg d-none d-md-block"><img src="./img/conf1.jpg" alt="conference" class="about-img1"></p>
+            <p  class="img-marg2 d-none d-md-block"><img src="./img/conf2.jpg" alt="conference" class="about-img1"></p>
+           </div>
+
+                   
             <div class="space2"></div>
 
         </section>
@@ -162,10 +171,11 @@
          <footer class="container-fluid about-ft">
             <div class="space2"></div>
             <div class="container"> 
+                <div class="space3"></div>
             <div class="row">
                 <div class=" col-md-2"></div>
                 <div class=" col-md-4 ">
-                    <p class="about-ft-logo  "><img src="./img/c-logo.png" alt=""></p>
+                    <p class="about-ft-logo  "><img src="./img/c-logo.png" alt="logo"></p>
                 </div>
                 <div class=" col-md-6 about-ft-text">
                     <p>
@@ -176,6 +186,7 @@
                     </p>
                 </div>
             </div>
+            <div class="space2"></div>
             </div>
 
         </Footer>

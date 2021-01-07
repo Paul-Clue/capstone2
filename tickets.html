@@ -17,13 +17,13 @@
                 <div class="col-lg-4"></div>
                 <div class="col-lg-4"></div>
                 <div class="col-lg-4">
-                    <ul class="nav">
-                        <li class="nav-item pr-3"><a href="#"> <i class="fa fa-facebook-f"></i></a></li>
-                        <li class="nav-item pr-3"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li class="nav-item pr-3"><a href="#"> English</a></li>
-                        <li class="nav-item pr-3"><a href="#">My page </a></li>
-                        <li class="nav-item pr-3"><a href="#">Logout</a></li>
-                    </ul>
+                    <div class="nav  nav-soc">
+                        <a href="#" class="nav-item pr-3 text-white"> <i class="fa fa-facebook-f"></i></a>
+                        <a href="#" class="nav-item pr-3 text-white"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="nav-item pr-3 text-white"> English</a>
+                        <a href="#" class="nav-item pr-3 text-white">My page </a>
+                        <a href="#" class="nav-item pr-3 text-white">Logout</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -33,31 +33,38 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4">
-                    <a class="navbar-brand " href="#"><img src="./img/c-logo.png" alt=""></a>
+                    <a class="navbar-brand " href="index.html"><img src="./img/c-logo.png" alt="logo"></a>
                 </div>
                 <div class="col-lg-8">
-                    <ul class="nav nav3 ">
+                    <div class="nav nav3 ">
                         <a href="about.html"> About</a>
-                        <a href="tickets.html" class="nav-item pr-6">Tickets</a>
-                        <li class="nav-item pr-6 "><a href="#">Join</a></li>
-                        <li class="nav-item pr-6"><a href="#">Sponsor</a></li>
-                        <li class="nav-item pr-6"><a href="#">News</a></li>
-                        <li class="nav-item pr-6"><a href="#" class="btn a-btn" role="button">buton </a></li>
-                    </ul>
+                        <a href="Index.html" class="nav-item pr-6">Home</a>
+                        <a href="#">Join</a>
+                        <a href="#">Sponsor</a>
+                        <a href="#">News</a>
+                        <p class="nav-item pr-6"><a href="#" class="btn a-btn" role="button">buton </a></p>
+                    </div>
                 </div>
             </div>
         </div>
     </nav>
     <div>
-        <div class="container d-md-none d-lg-none d-xl-none d-sm-block">
-            <i class="fa fa-bars fa-2x"></i>
-        </div>
+        <div class="container-flex d-md-none d-lg-none d-xl-none d-sm-block drop-men" >
+            <div class="dropdown">
+                <button class="dropbtn"><i class="fa fa-bars fa-2x"></i></button>
+                <div class="dropdown-content"  style="z-index: 10;">
+                <a href="about.html">About</a>
+                <a href="index.html">Home</a>
+                </div>
+              </div>
+        </div>  
+        <!-- <i class="fa fa-bars fa-2x"></i> -->
     </div>
     <!--****************************** /HEADER ************************************-->
         <div class="space3"></div>
 
         <p class="about-log1 text-center">
-            BIG DEAL PRODUCTIONS 2021s<br>
+            SELECT TICKETS<br>
             This is an example of how we set up the bookings and 
             meals for our event.
         </p>
@@ -95,13 +102,13 @@
              <label for="$70.000">$70.000</label>
             </td>
 
-                  <td><input type="radio" id="$70.000" name="ticket" value="$70.000"
+                  <td><input type="radio" id="$70.001" name="ticket" value="$70.000"
                     >
              <label for="$70.000">$120.000</label>
             </td>
                   <td ></td>
-            </td>
-                  <td><input type="radio" id="$70.000" name="ticket" value="$70.000"
+           
+                  <td><input type="radio" id="$70.002" name="ticket" value="$70.000"
                     >
              <label for="$70.000">$30.000</label>
             </td>
@@ -111,13 +118,13 @@
                   <td><input type="radio" id="$30.000" name="ticket" value="$30.000"
                   >
            <label for="$30.000">$30.00</label></td>
-                  <td><input type="radio" id="$30.000" name="ticket" value="$30.000"
+                  <td><input type="radio" id="$30.001" name="ticket" value="$30.000"
                     >
              <label for="$30.000">$30.00</label></td>
-                  <td><input type="radio" id="$30.000" name="ticket" value="$30.000"
+                  <td><input type="radio" id="$30.002" name="ticket" value="$30.000"
                     >
              <label for="$30.000">$30.00</label></td>
-                  <td><input type="radio" id="$30.000" name="ticket" value="$30.000"
+                  <td><input type="radio" id="$30.004" name="ticket" value="$30.000"
                     >
              <label for="$30.000">$30.00</label></td>
                 </tr>
@@ -142,7 +149,7 @@
             </ul>
         </div>
 
-        <din class="space3"></din>
+        <div class="space3"></div>
 
         <div class="container">
         <div class="lunch">
@@ -150,7 +157,7 @@
             <div>
                 <input type="radio" id="menu1" name="food" value="menu1"
                        >
-                <label for="menu">menu1</label>
+                <label for="menu1">menu1</label>
               </div>
               
               <div>
@@ -166,23 +173,23 @@
         </div>
         </div>
 
-        <din class="space2"></din>
+        <div class="space2"></div>
         <div class="container">
         <div class="lunch">
            
             <div>
-                <input type="radio" id="menu1" name="food" value="menu1"
+                <input type="radio" id="menu6" name="food" value="menu1"
                        >
-                <label for="menu">menu1</label>
+                <label for="menu1">menu1</label>
               </div>
               
               <div>
-                <input type="radio" id="menu2" name="food" value="menu2">
+                <input type="radio" id="menu4" name="food" value="menu2">
                 <label for="menu2">menu2</label>
               </div>
               
               <div>
-                <input type="radio" id="menu3" name="food" value="menu3">
+                <input type="radio" id="menu8" name="food" value="menu3">
                 <label for="menu3">menu3</label>
               </div>
 
@@ -194,7 +201,7 @@
 
         <button type="button" class="btn btn-food ">SUBMIT</button>
         </section>
-        <din class="space3">&nbsp;</din>
+        <div class="space3">&nbsp;</div>
 
 
 

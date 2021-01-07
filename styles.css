@@ -4,7 +4,7 @@
 }
 
 @font-face {
-  font-family: arial, helvetica, sans-serif, lato1, times;
+  font-family: lato1, arial, helvetica, sans-serif, times;
   src: url("fonts/lato/Lato-Regular.ttf");
 }
 
@@ -13,8 +13,36 @@
   src: url("fonts/lato/Lato-BlackItalic.ttf");
 }
 
-.container {
-  overflow: hidden;
+.dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  z-index: 10;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  z-index: 10;
 }
 
 .nav-item a {
@@ -23,14 +51,31 @@
 }
 
 .nav3 a {
-  font-family: Arial, Helvetica, sans-serif, lato11, times;
-  color: #d3d3d3;
-  margin-top: 10px;
-  z-index: 10;
   padding-right: 40px;
+  z-index: 10;
+  font-family: lato1, Arial, Helvetica, sans-serif, times;
+  color: #d3d3d3;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.drop-men {
+  position: absolute;
+  background-color: #e2e0e0;
+}
+
+.container {
+  overflow: hidden;
 }
 
 body {
+  overflow-x: hidden;
   background-color: #f9f9f9;
 }
 
@@ -50,9 +95,14 @@ nav {
   z-index: 10;
 }
 
+.nav3 {
+  margin-top: 10px;
+  z-index: 10;
+}
+
 .bg-image {
+  height: 100%;
   width: 100%;
-  height: 120px;
   opacity: 0.1;
   z-index: 2;
   position: absolute;
@@ -63,6 +113,7 @@ nav {
   border: 4px solid #ec5242;
   color: #ec5242;
   z-index: 3;
+  margin-top: -6px;
 }
 
 .sec1 {
@@ -134,7 +185,7 @@ nav {
   position: relative;
   top: 70px;
   left: 300px;
-  z-index: 1;
+  z-index: 0;
 }
 
 .bg10 {
@@ -152,32 +203,37 @@ nav {
 .main-w {
   position: relative;
   z-index: 3;
+  font-size: 30px;
 }
 
 section h1 {
-  font-family: arial, helvetica, sans-serif, lato1, times;
+  font-family: lato1, arial, helvetica, sans-serif, times;
   font-size: 12px;
   color: #ec5242;
 }
 
 .small-div {
+  border: 2px solid white;
+  width: 65%;
   background-color: #f9f9f9;
-  font-family: Arial, Helvetica, sans-serif, lato1, times;
+  font-family: lato1, arial, helvetica, sans-serif, times;
   font-size: 12px;
   font-weight: bold;
   color: #272a31;
+  z-index: 10;
 }
 
 .small-div2 {
   color: #272a31;
-  font-family: arial, helvetica, sans-serif, cocogoose1, times;
-  font-size: 12px;
+  font-family: cocogoose1, arial, helvetica, sans-serif, times;
+  font-size: 23px;
 }
 
 .small-div3 {
   color: #272a31;
-  font-family: arial, helvetica, sans-serif, lato1, times;
-  font-size: 12px;
+  font-family: lato1, arial, helvetica, sans-serif, times;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .row-s {
@@ -185,12 +241,12 @@ section h1 {
 }
 
 section .test1 {
-  font-family: Arial, Helvetica, sans-serif, cocogoose1, times;
+  font-family: cocogoose1, arial, helvetica, sans-serif, times;
   background-image: url(./img/orange2.jpg);
   background-repeat: no-repeat;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 40px;
+  font-size: 80px;
   text-transform: uppercase;
   font-weight: 800;
   -webkit-font-smoothing: antialiased;
@@ -215,22 +271,24 @@ section .test1 {
 .near-ft {
   display: flex;
   justify-content: space-between;
-  font-family: Arial, Helvetica, sans-serif, cocogoose1, times;
+  font-family: cocogoose1, arial, helvetica, sans-serif, times;
   font-weight: bold;
 }
 
 .card-img {
-  width: 60px;
+  width: 100px;
   height: 100px;
+  margin-left: 2px;
+  object-fit: cover;
 }
 
 .cardd-text {
-  font-family: arial, helvetica, sans-serif, lato1, times;
+  font-family: lato1, arial, helvetica, sans-serif, times;
   font-weight: bold;
   position: absolute;
-  left: 160px;
-  top: -80px;
-  color: white;
+  left: 55%;
+  top: -100px;
+  color: #d3d3d3;
   width: 300px;
   margin-right: 0;
 }
@@ -245,27 +303,32 @@ section .test1 {
 }
 
 .see {
-  font-family: arial, helvetica, sans-serif, lato1, times;
+  font-family: lato1, arial, helvetica, sans-serif, times;
   font-weight: bold;
   font-size: 13px;
   color: white;
 }
 
 .f-speak {
-  font-family: arial, helvetica, sans-serif, lato1, times;
+  font-family: lato1, arial, helvetica, sans-serif, times;
   color: #272a31;
   font-size: 14px;
 }
 
 .cardd2 {
   height: 110px;
-  background-color: #f9f9f9;
   color: #272a31;
 }
 
+.about-logo {
+  width: 30%;
+  padding-top: 60px;
+}
+
 .cardd-text2 {
+  width: 300px;
   position: absolute;
-  left: 100px;
+  left: 130px;
   top: -100px;
   color: black;
   font-size: 12px;
@@ -273,6 +336,12 @@ section .test1 {
 
 .cardd-text4 {
   padding-top: -300px;
+}
+
+.cardd-text3 {
+  font-family: lato2, arial, helvetica, sans-serif, times;
+  color: #ec5242;
+  font-size: 10px;
 }
 
 .card-h2 {
@@ -287,12 +356,6 @@ section .test1 {
   border-top: 3px solid #d3d3d3;
 }
 
-.cardd-text3 {
-  font-family: arial, helvetica, sans-serif, lato2, times;
-  color: #ec5242;
-  font-size: 10px;
-}
-
 .space {
   height: 50px;
 }
@@ -305,10 +368,48 @@ section .test1 {
   height: 110px;
 }
 
+@media (max-width: 989px) and (min-width: 768px) {
+  .nav-soc {
+    margin-left: 60%;
+  }
+
+  .nav3 {
+    position: relative;
+    top: -60px;
+    left: 90px;
+  }
+}
+
 @media (min-width: 768px) {
+  .c-third-sec {
+    width: 25%;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-right: 5px;
+  }
+
+  .card-text {
+    padding-left: 30%;
+  }
+
+  .card-text22 {
+    padding-left: 22%;
+  }
+
+  .card-text23 {
+    font-weight: bold;
+    color: #d3d3d3;
+    font-family: lato1, arial, helvetica, sans-serif, times;
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .card-img {
+    margin-left: 12%;
+  }
+
   .cardd-text2 {
     position: absolute;
-    left: 25px;
+    left: 70px;
     top: 0;
     color: black;
     font-size: 12px;
@@ -321,15 +422,66 @@ section .test1 {
   }
 }
 
+@media (min-width: 990px) {
+  .card-img {
+    margin-left: 23%;
+  }
+}
+
 @media (max-width: 768px) {
   .foot-img {
     width: 40px;
     height: 20px;
   }
+
+  section .test1 {
+    font-size: 30px;
+  }
+
+  section .about-test1 {
+    font-size: 30px;
+  }
+
+  .cardd-text {
+    font-size: 12px;
+    left: 55%;
+    word-wrap: break-word;
+  }
+
+  .card-h {
+    font-size: 12px;
+  }
+
+  .cardd {
+    width: 110%;
+  }
+
+  .card-img {
+    width: 88px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 415px) {
+  .cardd-text {
+    width: 180px;
+    left: 48%;
+  }
+
+  .cardd-text2 {
+    width: 55%;
+    word-wrap: break-word;
+  }
+}
+
+@media (min-width: 416px) {
+  .cardd-text {
+    left: 35%;
+    margin-top: 20px;
+  }
 }
 
 .f-speak2 {
-  font-family: arial, helvetica, sans-serif, lato1, times;
+  font-family: lato1, arial, helvetica, sans-serif, times;
   color: #d3d3d3;
   font-size: 20px;
 }
@@ -338,79 +490,105 @@ section .test1 {
   background-color: #272a31;
 }
 
+.foot-list li {
+  padding-right: 4%;
+}
+
+.last {
+  margin-left: 30px;
+}
+
 .about-nav2 {
   box-shadow: 5px 10px 18px #888;
 }
 
 .about-text {
-  height: 300px;
   margin-top: 0;
+  width: 90%;
+  margin-left: 5%;
 }
 
 .about-text p {
   height: 150px;
   background-color: white;
   color: #272a31;
-  font-family: arial, helvetica, sans-serif, lato1, times;
+  font-family: lato1, arial, helvetica, sans-serif, times;
   padding-top: 30px;
-}
-
-.text-center {
-  padding-left: 80px;
-  padding-right: 80px;
+  font-weight: bold;
 }
 
 .about-text .coco {
-  font-family: arial, helvetica, sans-serif, cocogoose1, times;
+  font-family: cocogoose1, arial, helvetica, sans-serif, times;
   font-weight: bold;
-  font-size: 10px;
+  font-size: 12px;
 }
 
-.coco1 {
+.about-text .coco1 {
   margin-top: 10px;
+  background-color: #f9f9f9;
 }
 
 .about-log1 {
-  font-family: arial, helvetica, sans-serif, lato1, times;
+  font-family: lato1, arial, helvetica, sans-serif, times;
   font-weight: bold;
   color: #272a31;
   font-size: 20px;
 }
 
 .about-log2 {
-  font-family: arial, helvetica, sans-serif, lato1, times;
+  font-family: lato1, arial, helvetica, sans-serif, times;
   color: #272a31;
   font-size: 12px;
 }
 
 .logo {
-  font-family: Arial, Helvetica, sans-serif, cocogoose1, times;
+  font-family: cocogoose1, arial, helvetica, sans-serif, times;
   font-size: 50px;
   font-weight: bold;
   margin: auto;
 }
 
-.about-img1 img {
+.about-img1 {
   width: 250px;
   height: 200px;
 }
 
+.img-marg {
+  margin-left: 22%;
+  margin-right: 22%;
+}
+
+@media (max-width: 989px) {
+  .about-text p {
+    height: 200px;
+    margin-top: 30px;
+    padding-top: 0;
+    font-size: 75%;
+  }
+}
+
 @media (min-width: 768px) {
   .about-img1 {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-  }
-
-  .about-img1 img {
     width: 250px;
     height: 200px;
-    margin-left: 190px;
+    margin-right: 5px;
   }
 
-  .about-img1 .about-img2 {
-    margin-left: 20px;
+  .img-marg {
+    margin-left: 15%;
+    margin-right: 10px;
+  }
+
+  .img-marg2 {
+    position: relative;
+    top: -217px;
+    left: 55%;
+  }
+
+  .about-img-gard {
+    position: relative;
+    top: -500px;
+    left: 300px;
   }
 }
 
@@ -421,7 +599,7 @@ section .test1 {
 }
 
 .about-btm {
-  font-family: arial, helvetica, sans-serif, lato1, times;
+  font-family: lato1, arial, helvetica, sans-serif, times;
   color: #272a31;
   font-size: 12px;
   font-weight: bold;
@@ -433,12 +611,12 @@ section .test1 {
 }
 
 .about-ft-text {
-  font-family: arial, helvetica, sans-serif, lato1, times;
+  font-family: lato1, arial, helvetica, sans-serif, times;
   color: #d3d3d3;
 }
 
 .about-ft-logo {
-  font-family: arial, helvetica, sans-serif, cocogoose1, times;
+  font-family: cocogoose1, arial, helvetica, sans-serif, times;
   font-size: 50px;
   font-weight: bold;
   margin: auto;
@@ -450,12 +628,12 @@ section .test1 {
 }
 
 .ticket-ins2 li {
-  font-family: arial, helvetica, sans-serif, lato1, times;
+  font-family: lato1, arial, helvetica, sans-serif, times;
   color: #ec5242;
 }
 
 .ticket-ins2 li .t-inst2 {
-  font-family: arial, helvetica, sans-serif, lato1, times;
+  font-family: lato1, arial, helvetica, sans-serif, times;
   color: #272a31;
 }
 
